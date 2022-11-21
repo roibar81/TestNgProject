@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Parameters Suite">
+
     <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/"/>
     <parameter name="Task" value='Download File'/>
+
     <test name="Pass Parameters Test">
         <parameter name="TestResult" value="Pass"/>
         <classes>
@@ -23,4 +25,5 @@
             <class name="DemoTestNG.ParameterizedTest"/>
         </classes>
     </test>
+
 </suite>
